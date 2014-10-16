@@ -79,7 +79,7 @@ instance. SLURM and Torque support specification of an account parameter with
 SGE supports special parameters passed using resources to help handle the
 heterogeneity of possible setups. Specify the `SGE parallel environment`_ to use
 for submitting multicore jobs with ``-r pename=your_pe``. Since this setup is
-system specific it is hard to write general code for find a suitable
+system specific it is hard to write general code to find a suitable
 environment. Specifically, when there are multiple usable parallel environments,
 it will select the first one which may not be correct. Manually specifying it
 with a ``pename=`` flag to resources will ensure correct selection of the right
